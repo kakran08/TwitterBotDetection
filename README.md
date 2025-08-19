@@ -16,12 +16,12 @@ TwitterBotDetection/
 ├── users/              # Model & training code for user-level bot detection
 │   ├── model.pkl
 │   ├── preprocess.py
-│   └── train.py
+│   └── model.py
 │
 ├── timelines/offline/  # Model & training code for tweet-level bot detection
 │   ├── model.pkl
 │   ├── preprocess.py
-│   └── train.py
+│   └── model.py
 │
 └── README.md
 ```
@@ -78,7 +78,7 @@ Used for detecting **fake tweets / bot-generated activity**:
 
 ```bash
 cd users/
-python train.py      # Train the model
+python model.py      # Train the model
 # model.pkl will be generated
 ```
 
@@ -86,7 +86,7 @@ python train.py      # Train the model
 
 ```bash
 cd timelines/offline/
-python train.py      # Train the model
+python model.py      # Train the model
 # model.pkl will be generated
 ```
 
