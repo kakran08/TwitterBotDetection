@@ -92,18 +92,6 @@ python train.py      # Train the model
 
 ---
 
-### 📌 Dependencies
-
-Make sure to install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-(If not provided yet, consider adding a `requirements.txt`)
-
----
-
 ### 📦 Future Improvements
 
 * Add live prediction pipeline
